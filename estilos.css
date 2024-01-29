@@ -1,0 +1,750 @@
+/* ------------ Barra de navegación ------------- */
+div p {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: large;
+    color: purple;
+    text-align: right;
+    padding-right: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #logo{
+    width: 100%;
+    height: 75px;
+}
+
+/* ***************** CARRUSEL ******************* */
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #fcda90; 
+}
+
+/* ***************** Descripcion de la página ******************* */
+#descrip{
+    width: 100%;
+    height: 400px;
+    background-color: darkblue;
+}
+
+#DT{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 7%;
+    padding-left: 3%;
+}
+#DP{
+    width: 50%;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+#descrip{
+    width: 100%;
+    height: 400px;
+    background-color: darkblue;
+}
+#descrip:hover{
+    background-color: rgb(0, 128, 0);
+}
+
+/* *********** Juegos destacados ************** */
+.btn{
+    position:relative;
+    font-size:1.2em;
+    font-weight:300;
+    color:#fff;
+    text-shadow:none;
+    border-radius:0px;
+    background: #f7be68;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.22);
+    text-decoration: none;
+ }
+ 
+ .btn:hover{
+    background: #f5b14b;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.22);
+    color:#fff;
+ }
+ 
+ #modalContent{
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:6;
+    float:left;
+    margin:-2% 0px 0px -150px;
+    width:700px;
+    color:#888888;
+    line-height:22px;
+    padding:15px;
+    border-radius:5px;
+    background:#ffffff;
+    border:1px solid #f7be68;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:5;
+    float:left;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent > a{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color: #fff;
+    border-radius:2px;
+    background:#f7be68;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.JD{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+/* ********************************* */
+#modalContent1{
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:6;
+    float:left;
+    margin:-2% 0px 0px -150px;
+    width:700px;
+    color:#888888;
+    line-height:22px;
+    padding:15px;
+    border-radius:5px;
+    background:#ffffff;
+    border:1px solid #f7be68;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal1{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:5;
+    float:left;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal1 > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent1 > a{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color: #fff;
+    border-radius:2px;
+    background:#f7be68;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* ***************************** */
+#modalContent2{
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:6;
+    float:left;
+    margin:-2% 0px 0px -150px;
+    width:700px;
+    color:#888888;
+    line-height:22px;
+    padding:15px;
+    border-radius:5px;
+    background:#ffffff;
+    border:1px solid #f7be68;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal2{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:5;
+    float:left;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal2 > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent2 > a{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color: #fff;
+    border-radius:2px;
+    background:#f7be68;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* **** */
+#modalContent3{
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:6;
+    float:left;
+    margin:-2% 0px 0px -150px;
+    width:700px;
+    color:#888888;
+    line-height:22px;
+    padding:15px;
+    border-radius:5px;
+    background:#ffffff;
+    border:1px solid #f7be68;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal3{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:5;
+    float:left;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal3 > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent4 > a{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color: #fff;
+    border-radius:2px;
+    background:#f7be68;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* ****** */
+#modalContent4{
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:6;
+    float:left;
+    margin:-2% 0px 0px -150px;
+    width:700px;
+    color:#888888;
+    line-height:22px;
+    padding:15px;
+    border-radius:5px;
+    background:#ffffff;
+    border:1px solid #f7be68;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal4{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:5;
+    float:left;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal4 > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent4 > a{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color: #fff;
+    border-radius:2px;
+    background:#f7be68;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* ******* */
+#modalContent5{
+    position:absolute;
+    top:30%;
+    left:35%;
+    z-index:6;
+    float:left;
+    margin:-2% 0px 0px -150px;
+    width:700px;
+    color:#888888;
+    line-height:22px;
+    padding:15px;
+    border-radius:5px;
+    background:#ffffff;
+    border:1px solid #f7be68;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal5{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:5;
+    float:left;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal5 > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent5 > a{
+    position:absolute;
+    top:-4px;
+    right:-4px;
+    color: #fff;
+    border-radius:2px;
+    background:#f7be68;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.JuegoDest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#imgCard2{
+    object-fit: cover;
+}
+#imgCard2:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#imgCard3{
+    object-fit: cover;
+}
+#imgCard3:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#imgCard4{
+    object-fit: cover;
+}
+#imgCard4:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#imgCard5{
+    object-fit: cover;
+}
+#imgCard5:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#imgCard6{
+    object-fit: cover;
+}
+#imgCard6:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#imgCard7{
+    object-fit: cover;
+}
+#imgCard7:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+/* ***************** CARDS ******************* */
+.CardA{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+/* *************** Sección Novedades ******************* */
+#textR{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+#Nov{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 6%;
+}
+
+
+/* *************** SEGUNDA PÁGINA ************************* */
+/* --------- Primera sección Imagen destacada ------------- */
+#imagen1{
+    width: 100%;
+    height: 400px;
+}
+
+.textoImagen{
+    width: 25%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    color:purple;
+    background-color: turquoise;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    text-align: center;
+}
+.textoImagen:hover {
+    color:orangered;
+    background-color: black;
+}
+
+/* --------------- Segunda sección especificaciones técnicas ---------------- */
+.Titulos{
+    text-align: center;
+}
+
+.textCon{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+    background-color: white;
+}
+
+.TC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    background-color: #c41026;
+    height:1150px;
+}
+
+#C1{
+    object-fit: cover;
+}
+#C1:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#C2{
+    object-fit: cover;
+}
+#C2:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* --------------- Galería de Imagenes ---------------- */
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+        display: block;
+    }
+  }
+  
+  .clearfix:after {
+    display: none;
+   /*  content: "";
+    display: table;
+    clear: both; */
+}
+
+/* ****************** Tercera Página *************** */
+/* Noticias */
+.SJ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 400px;
+}
+
+#N1{
+    object-fit: cover;
+}
+#N1:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#N2{
+    object-fit: cover;
+}
+#N2:hover{
+    /* efectos de transicion */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* --------------- Pie de página ----------------- */
+#footerPagina{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#NLogo{
+    width: 100%;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: large;
+    color: purple;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    padding-left: 1%;
+}
+.iconos{
+    width: 50%;
+    height: 200px;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 6%;
+}
+#nombre{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#logo1{
+    width: 100%;
+    height: 75px;
+    padding-left: 5%;
+}
+/* ************** Redes Sociales ***************** */
+

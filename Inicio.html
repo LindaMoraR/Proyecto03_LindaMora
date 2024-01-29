@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Inicio encabezado -->
+    <header>
+        <div>
+            <p>Video Game</p>
+        </div>
+        <ul>
+            <li><img src="img/LOGO.jpg" alt="..." id="logo"></li>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Consolas.html">Consolas</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Juegos</a>
+                <div class="dropdown-content">
+                    <a href="Juegos.html">Noticias</a>
+                    <a href="Juegos.html">Personajes</a>
+                </div>
+            </li>
+        </ul>
+        <!-- ********** Carrusel *********** -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            </div>
+            <!-- Carrusel de imagenes -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Nintendo.jpg" alt="img1" class="d-block" style="width:100%; height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>Nintendo Switch</h3>
+                        <p class="text">¡Descubré lo mejor en video juegos!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Nintendo1.jpg" alt="img2" class="d-block" style="width:100%; height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>Nintendo</h3>
+                        <p class="text">¡Descubré lo mejor en video juegos!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/PS4.jpg" alt="img3" class="d-block" style="width:100%; height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>Consolas</h3>
+                        <p class="text">¡Descubré lo mejor en consolas!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/XBOX1.jpg" alt="img4" class="d-block" style="width:100%; height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>Consolas</h3>
+                        <p class="text">¡Descubré lo mejor en consolas!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/XBOX4.jpg" alt="img5" class="d-block" style="width:100%; height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>Juegos</h3>
+                        <p class="text">¡Descubré lo mejor en juegos para tus consolas!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <main>
+        <!--------- Descripción de la página ---------->
+        <div id="descrip">
+            <h1 id="DT">¡Sumergete y siente la nueva realidad!</h1>
+            <p id="DP">Sumergete en Video Game y disfruta de la realidad con los dispositivos más innovadores, encontrá
+                desde
+                consolas, juegos tanto físicos como en línea de manera que podrás disfrutar de los mejores lanzamientos
+                y mantenerte actualizado.</p>
+        </div>
+        <br>
+        <!-------- Juegos destacados ---------->
+        <h1 class="Titulos">Juegos destacados</h1>
+        <br>
+        <br>
+        <div class="JuegoDest">
+            <div>
+                <a href="#modal" title="Marvel's Spider-Man: Miles Morales" class="btn"><img src="img/Card2.jpg"
+                        style="width: 300px" id="imgCard2"><img></a>
+                <div id="modal">
+                    <a href="#cerrar"></a>
+                    <div id="modalContent">
+                        <a href="#cerrar">X</a>
+                        <h1 style="color: black; text-align:center;">Marvel's Spider-Man: Miles Morales</h1>
+                        <p class="JD">Marvel's Spider-Man 2 es un juego para un jugador. Pero podrán
+                            jugar con dos personajes, Peter Parker y Miles Morales, y cambiar entre los dos heroicos
+                            Spider-Men durante sus aventuras de lucha contra el crimen para vivir y experimentar el
+                            estilo de juego, habilidades e historia de cada uno de ellos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#modal" title="GTA V" class="btn"><img src="img/GTAV.jpg" style="width: 300px" id="imgCard3"><img></a>
+                <div id="modal1">
+                    <a href="#cerrar"></a>
+                    <div id="modalContent1">
+                        <a href="#cerrar">X</a>
+                        <h1 style="color: black; text-align:center;">GTA V</h1>
+                        <p class="JD">GTA se trata de una serie de videojuegos de mundo abierto en el que los jugadores
+                            pueden controlar a un personaje en un ambiente urbano y realizar diversas actividades, como
+                            conducir vehículos, robar, luchar y realizar misiones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#modal" title="Uncharted" class="btn"><img src="img/uncharted1 - copia.jpg"
+                        style="width: 300px" id="imgCard4"><img></a>
+                <div class="modal">
+                    <a href="#cerrar"></a>
+                    <div class="modalContent">
+                        <a href="#cerrar">X</a>
+                        <h1 style="color: black; text-align:center;">Uncharted</h1>
+                        <p class="JD">Ambientada tres años después de la conclusión de "La traición de Drake", "El
+                            desenlace del ladrón" sigue a Nathan Drake, ahora un cazador de fortunas retirado, mientras
+                            se reúne con su hermano Samuel, perdido hace mucho tiempo, y busca salvarlo de un tirano
+                            despiadado al emprender otra aventura.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ******************************************** -->
+        <br>
+        <div class="JuegoDest">
+            <div>
+                <a href="#modal" title="Mortal Kombat" class="btn"><img src="img/mortal1 - copia.jpg"
+                        style="width: 300px" id="imgCard5"><img></a>
+                <div id="modal3">
+                    <a href="#cerrar"></a>
+                    <div id="modalContent3">
+                        <a href="#cerrar">X</a>
+                        <h1 style="color: black; text-align:center;">Mortal Kombat</h1>
+                        <p class="JD">El verdadero nombre de Scorpion es Hanzo Hasashi, y fue uno de los mejores
+                            asesinos del clan Shirai Ryu, una peligrosa organización ninja. Pero esa actividad la tomó
+                            sin el consentimiento de su padre, ya que este no quería ver a Hanzo involucrado en
+                            semejantes actividades.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#modal" title="Mario Bros" class="btn"><img src="img/mario1 - copia.jpg"
+                        style="width: 300px" id="imgCard6"><img></a>
+                <div id="modal4">
+                    <a href="#cerrar"></a>
+                    <div id="modalContent4">
+                        <a href="#cerrar">X</a>
+                        <h1 style="color: black; text-align:center;">Mario Bros</h1>
+                        <p class="JD">El objetivo del juego es derrotar a todos los enemigos en cada fase. La mecánica
+                            de Mario Bros. consiste únicamente en correr y saltar. A diferencia de los futuros juegos de
+                            Mario, los jugadores no pueden saltar sobre los enemigos y aplastarlos, a menos que ya estén
+                            boca arriba.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#modal" title="God of War" class="btn"><img src="img/kratos1 - copia.jpg"
+                        style="width: 300px" id="imgCard7"><img></a>
+                <div id="modal5">
+                    <a href="#cerrar"></a>
+                    <div id="modalContent5">
+                        <a href="#cerrar">X</a>
+                        <h1 style="color: black; text-align:center;">God of War Ragnarok</h1>
+                        <p class="JD">Desarrollado por el prestigioso estudio Sony Santa Monica, nos presenta una nueva
+                            historia en la que Kratos deberá enfrentarse a diversos enemigos de inspiración nórdica,
+                            explorando los mitos del Ragnarok, el apocalipsis que todo lo devorará según esta tradición
+                            del norte.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!--------- Cards de articulos ------------>
+        <h1 class="Titulos">Árticulos más vendidos</h1>
+        <br>
+        <div class="card-group px-4">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="img/Card1.jpg" class="card-img-top" height="250px" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">PS5</h5>
+                    <p class="CardA">
+                        <b>$499,99</b><br>Diseño delgado: <br>
+                        Con PS5, los jugadores obtienen una poderosa tecnología de juego dentro de un diseño de consola
+                        elegante y compacto. <br>
+                        1 TB de almacenamiento: <br>
+                        Mantenga sus juegos favoritos listos y esperando a que los inicie y juegue con 1 TB de
+                        almacenamiento SSD integrado.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="img/Card2.jpg" class="card-img-top" height="250px" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Marvel's Spider-Man: Miles Morales PS5</h5>
+                    <p class="CardA">
+                        <b>$49,99</b><br>Marvel's Spider-Man Remasterizado. <br>
+                        Marvel's Spider-Man: Miles Morales.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="img/Card3.jpg" class="card-img-top" height="250px" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Nintendo Switch</h5>
+                    <p class="CardA">
+                        <b>$350,00</b><br>Disfruta de tu consola Nintendo Switch de muchas formas, modo TV en la base y
+                        disfruta de juegos en alta definición en tu televisor, modo portátil o modo semiportátil,
+                        utilizando el soporte de la consola para compartir la pantalla y la diversión en un juego
+                        multijugador. <br>
+                        La duración de la batería es aproximadamente 2.5 a 6.5 horas.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="img/Card4.jpg" class="card-img-top" height="250px" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Control PS5</h5>
+                    <p class="CardA">
+                        <b>$80,00</b><br>El control inalámbrico DualSense para PS5 ofrece respuesta háptica inmersiva,
+                        gatillos adaptativos dinámicos y un micrófono integrado, todo en un diseño icónico.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!------------- Sección Novedades ------------------->
+        <br>
+        <h1 class="Titulos">Novedades</h1>
+        <br>
+        <div class="card mb-3" style="background-color: #269199; width: 90%;" id="Nov">
+            <img src="img/God1.jpg" class="card-img-top" alt="..." style="height:500px; width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title" style="color: black;"><b>Tu guía sobre las novedades de God of War Ragnarok</b></h5>
+                <p class="card-text" id="textR">Al terminar el juego por primera vez tendremos opción de empezar la historia de
+                    nuevo en modo Nueva Partida+. Nuestro equipo, armas (incluida la lanza de Draupnir) y habilidades se
+                    transfieren de la primera pasada y estarán disponibles para usar desde el principio (con la
+                    excepción de las flechas Sónicas y Malditas, que habrá que desbloquear de nuevo). <br>
+                    En este modo Nueva Partida+ los enemigos serán mucho más poderosos, pero nosotros también podremos
+                    mejorar nuestro equipo más allá de nivel 9 (armadura, armas, escudos, componentes de armas). Habrá
+                    un nivel extra conocido como “Más” que dará beneficios adicionales a las armas.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <br>
+    </main>
+    <br>
+    <!-- Pie de página -->
+    <footer id="footerPagina">
+        <div id="NLogo">
+            <p>Video Game</p>
+        </div>
+        <div><img src="img/LOGO.jpg" alt="..." id="logo1"></div>
+        <div class="enlaces">
+            <a href="Inicio.html">Inicio</a>
+            <a href="Consolas.html">Consolas</a>
+            <a href="Juegos.html">Juegos</a>
+        </div>
+        <p id="nombre">Linda Mora Román</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

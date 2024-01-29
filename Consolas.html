@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página consolas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Inicio encabezado -->
+    <header>
+        <div>
+            <p>Video Game</p>
+        </div>
+        <ul>
+            <li><img src="img/LOGO.jpg" alt="..." id="logo"></li>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Consolas.html">Consolas</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Juegos</a>
+                <div class="dropdown-content">
+                    <a href="Juegos.html">Noticias</a>
+                    <a href="Juegos.html">Personajes</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <br>
+    <main>
+        <!-- Imagen destacada -->
+        <img src="img/Nintendo.jpg" alt="..." id="imagen1">
+        <div class="textoImagen">
+            <h2 style="font-weight: bold; font-size: xx-large; padding-top: 10%;">Video Game</h2>
+        </div>
+        <br>
+        <br>
+        <!-- Tarjetas consolas -->
+        <h1 class="Titulos">Consolas</h1>
+        <div class="TC">
+            <br>
+            <div class="card" style="background-color: white; border-radius: 4%; box-shadow: 15px 15px 10px 5px grey; width: 40%;" id="C1">
+                <div class="card-header">
+                    <img src="img/Card1.jpg" class="card-img-top" alt="..." style="border-radius: 3%; width: 100%;">
+                </div>
+                <div class="card-body" style="background-color: white; border-radius: 10%;">
+                  <h2 class="card-title" style="text-align: center;">Especificaciones Técnicas</h2>
+                  <p class="textCon">x86-64-AMD Ryzen™ Zen 2
+                    8 nucleos/16 hilos
+                    frecuencia variable, hasta 3.5GHz. <br>
+                    Memoria:
+                    GDDR6 16GB
+                    ancho de banda de 448GB/s. <br>
+                    Formato de disco de videojuego PS5:
+                    Ultra HD Blu-Ray, hasta 100GB/disco.</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="card" style="background-color: white; border-radius: 4%;box-shadow: 15px 15px 10px 5px grey; width: 40%;" id="C2">
+                <div class="card-header">
+                    <img src="img/Card3.jpg" class="card-img-top" alt="..." style="border-radius: 3%; width: 100%;">
+                </div>
+                <div class="card-body" style="background-color: white; border-radius: 10%;">
+                  <h2 class="card-title" style="text-align: center;">Especificaciones Técnicas</h2>
+                  <p class="textCon">Dimensiones	102 mm × 239 mm × 13.9 mm <br>
+                    Peso	0.398 kg <br>
+                    Batería	4310 mAh <br>
+                    Lector microSD	microSD, hasta 2 TB</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- ***************** Galería de Imagenes ******************** -->
+        <h1 class="Titulos">Galería</h1>
+        <br>
+        <section>
+            <h2>Nintendo Switch</h2>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/Nintendo.jpg">
+                        <img src="img/Nintendo.jpg" alt="Nintendo" width="600" height="400">
+                    </a>
+                    <div class="desc">Consolas</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/Nintendo1.jpg">
+                        <img src="img/Nintendo1.jpg" alt="Nintendo1" width="600" height="400">
+                    </a>
+                    <div class="desc">Diferentes estilos</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/Nintendo3.jpg">
+                        <img src="img/Nintendo3.jpg" alt="Nintendo2" width="600" height="400">
+                    </a>
+                    <div class="desc">Variedad de juegos</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/Nintendo4.jpg">
+                        <img src="img/Nintendo4.jpg" alt="Nintendo3" width="600" height="400">
+                    </a>
+                    <div class="desc">Juegos</div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div style="padding:6px;"></div>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h2>XBOX</h2>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/XBOX1.jpg">
+                        <img src="img/XBOX1.jpg" alt="XBOX1" width="600" height="400">
+                    </a>
+                    <div class="desc">Consolas</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/XBOX2.jpeg">
+                        <img src="img/XBOX2.jpeg" alt="XBOX2" width="600" height="400">
+                    </a>
+                    <div class="desc">Controles</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/XBOX4.jpg">
+                        <img src="img/XBOX4.jpg" alt="XBOX4" width="600" height="400">
+                    </a>
+                    <div class="desc">Variedad de Juegos</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/XBOX5.jpg">
+                        <img src="img/XBOX5.jpg" alt="XBOX5" width="600" height="400">
+                    </a>
+                    <div class="desc">Juegos en línea</div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div style="padding:6px;"></div>
+        </section>
+    </main>
+    <br>
+    <!-- Pie de página -->
+    <footer id="footerPagina">
+        <div id="NLogo">
+            <p>Video Game</p>
+        </div>
+        <div><img src="img/LOGO.jpg" alt="..." id="logo1"></div>
+        <div class="enlaces">
+            <a href="Inicio.html">Inicio</a>
+            <a href="Consolas.html">Consolas</a>
+            <a href="Juegos.html">Juegos</a>
+        </div>
+        <p id="nombre">Linda Mora Román</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
