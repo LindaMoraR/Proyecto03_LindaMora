@@ -651,32 +651,33 @@ div.gallery {
   * {
     box-sizing: border-box;
   }
-  
-  .responsive {
+
+.responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
     .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
+        width: 49.99999%;
+        margin: 6px 0;
+      }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 576px) {
     .responsive {
-        display: block;
+        display: none;
     }
   }
-  
-  .clearfix:after {
-    display: none;
+
+  /* .clearfix:after {/*  */
+   /*  display: none; */
    /*  content: "";
     display: table;
     clear: both; */
-}
+*/
+
 
 /* ****************** Tercera Página *************** */
 /* Noticias */
